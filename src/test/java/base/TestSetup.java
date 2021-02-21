@@ -1,11 +1,12 @@
 package base;
 
-import com.microsoft.playwright.Browser;
-import com.microsoft.playwright.BrowserType;
-import com.microsoft.playwright.Page;
-import com.microsoft.playwright.Playwright;
+import com.microsoft.playwright.*;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
+import com.microsoft.playwright.BrowserContext.*;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class TestSetup {
 

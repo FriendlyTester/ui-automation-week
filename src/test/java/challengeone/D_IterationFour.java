@@ -21,8 +21,8 @@ public class D_IterationFour
                 .launch(new BrowserType.LaunchOptions().withHeadless(false));
 
         Page page = browser.newPage();
-        page.fill("#username", "admin");
         page.navigate("https://automationintesting.online/#/admin");
+        page.fill("#username", "admin");
         page.fill("#password", "password");
         page.click("#doLogin");
 
