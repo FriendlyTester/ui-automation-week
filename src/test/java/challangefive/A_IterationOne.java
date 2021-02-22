@@ -1,11 +1,10 @@
-package challangesix;
+package challangefive;
 
 import com.microsoft.playwright.*;
 import org.junit.jupiter.api.Test;
 import pageobjects.LoginPage;
 import pageobjects.RoomListPage;
 
-import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.Arrays;
 import java.util.List;
