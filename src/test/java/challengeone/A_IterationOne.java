@@ -5,10 +5,8 @@ import com.microsoft.playwright.Page;
 import com.microsoft.playwright.Playwright;
 import org.junit.jupiter.api.Test;
 
-import java.nio.file.Paths;
-
 //My goal here was just to make sure all the different pieces of my approach were working. Don't care what the test was doing.
-//It didn't error, but with it running headlessly I couldn't see anything.
+//It didn't error, but with it running headless I couldn't see anything.
 public class A_IterationOne
 {
     @Test

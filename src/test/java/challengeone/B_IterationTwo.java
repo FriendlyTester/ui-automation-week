@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 //Utilise the JS Docs((https://playwright.dev/) that were referenced in the readme, to get the basic commands.
 //Could see how to navigate, fill and click
 //Disabled headless
-//Rant about headless and how no user uses your application headlessly.
+//Rant about headless and how no user uses your application headless.
 
 public class B_IterationTwo
 {
